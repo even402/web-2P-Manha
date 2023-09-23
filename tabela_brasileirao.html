@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Tabela Brasileirão</title>
 </head>
-<body>
+<body class="text">
     <h2>Tabela do Brasileirão Serie A 2023</h2>
     <table border="2">
         <thead>
+            <tbody>
             <tr>
                 <td colspan="3" widht="150px"<big>Clube</big></td>
                 <td>Pts</td>
@@ -419,7 +421,18 @@
             <img src="/images/derrota.svg" alt="">
         </td>
     </tr>
-        </thead>
+    </tbody>
+    </thead>
     </table>
+    <tfoot>
+      <table border="2">  
+      <h4>Últimas 5 Partidas</h4>
+      <tr>
+        <td>Viórias <img src="/images/vitoria.svg" alt=""></td>
+        <td>Empates <img src="/images/empate.svg" alt=""></td>
+        <td>Derrota <img src="/images/derrota.svg" alt=""></td>
+      </tr>
+    </table>
+    </tfoot>
 </body>
 </html>
